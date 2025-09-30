@@ -1,0 +1,135 @@
+.navbar-right .signup-button,
+.navbar-right .login-button {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: var(--navbar-bg);
+  color: var(--navbar-text);
+  padding: 0.3rem;
+  border-bottom: 1px solid var(--seperator);
+}
+
+.navbar-left {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 1rem;
+  margin: 0 0.25rem;
+}
+.navbar-center {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+.navbar-right {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding: 0 1rem;
+  margin: 0 0.25rem;
+}
+
+.navbar button:not(.hamburger-icon),
+.navbar input {
+  margin: 0.25rem 0;
+  font-size: 0.8rem;
+  padding: 0.75rem;
+}
+
+.search-container {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 0;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid var(--border-color);
+  padding: 0.5rem;
+}
+
+.login-button,
+.signup-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: none;
+  background-color: var(--button-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+
+.login-button:hover,
+.signup-button:hover {
+  outline: 1px solid var(--accent);
+}
+
+.login-button .login-text,
+.signup-button .signup-text {
+  display: inline;
+}
+
+.search-button {
+  flex: 0 0 auto;
+  border-radius: 0 4px 4px 0;
+  border: 1px solid var(--border-color);
+  border-left: none;
+  padding: 0.5rem 1rem;
+  background: var(--button-bg);
+  color: var(--navbar-text);
+  cursor: pointer;
+  max-width: 50px;
+  justify-content: space-around;
+}
+
+.search-button:hover {
+  outline: 1px solid var(--accent);
+}
+
+.search-button .button-text {
+  display: none;
+}
+
+.logo-image {
+  height: 2.4rem;
+  width: auto;
+  border-radius: 4px;
+}
+
+@media (min-width: 1024px) {
+  .navbar-right .login-button,
+  .navbar-right .signup-button {
+    display: inline-block;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+
+  .search-button {
+    max-width: none;
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-button .button-text {
+    display: inline;
+  }
+}
