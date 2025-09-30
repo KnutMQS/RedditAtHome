@@ -8,7 +8,7 @@ const NavBar = () => {
     <nav className="navbar">
       <div className="navbar-left">
         <a href="/" className="logo">
-          <img src={logo} alt="Logo" className="logo-image" />
+          <img src={logo} alt="RedditAtHome Logo" className="logo-image" />
         </a>
       </div>
       <div className="navbar-center">

@@ -11,7 +11,7 @@
   --button-bg: #f8f9fa;
   --button-hover: #e9ecef;
   --accent: #007bff;
-  --seperator: #1a1a1a;
+  --separator: #1a1a1a;
 
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -34,7 +34,7 @@
     --border-color: #404040;
     --button-bg: #2d2d2d;
     --button-hover: #404040;
-    --seperator: #b3afaf;
+    --separator: #b3afaf;
     --accent: #4a9eff;
   }
 }
