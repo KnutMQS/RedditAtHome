@@ -6,7 +6,7 @@ function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className={`hamburger-menu ${isOpen ? "open" : ""}`}>
+    <div className={`hamburger-menu visible md:hidden ${isOpen ? "open" : ""}`}>
       <button
         className="hamburger-icon"
         onClick={() => setIsOpen((open) => !open)}
