@@ -1,20 +1,23 @@
 @import "tailwindcss";
 
 @theme {
-  --color-text-light: #2c3e50;
-  --color-border-light: #e1e8ed;
-  --color-button-bg-light: #f8f9fa;
-  --color-button-hover-light: #e9ecef;
-  --color-accent-light: #007bff;
-  --color-divider-light: #1a1a1a;
+  --color-bg: #ffffff;
+  --color-text: #2c3e50;
+  --color-border: #e1e8ed;
+  --color-button-bg: #f8f9fa;
+  --color-button-hover: #e9ecef;
+  --color-accent: #007bff;
+  --color-divider: #1a1a1a;
+}
 
-  --color-gray-dark: #1a1a1a;
-  --color-text-dark: #e5e5e5;
-  --color-border-dark: #404040;
-  --color-button-bg-dark: #2d2d2d;
-  --color-button-hover-dark: #404040;
-  --color-accent-dark: #4a9eff;
-  --color-divider-dark: #b3afaf;
+[data-theme="dark"] {
+  --color-bg: #1a1a1a;
+  --color-text: #e5e5e5;
+  --color-border: #404040;
+  --color-button-bg: #2d2d2d;
+  --color-button-hover: #404040;
+  --color-accent: #4a9eff;
+  --color-divider: #b3afaf;
 }
 
 *,
@@ -24,14 +27,14 @@
 }
 
 :root {
-  --navbar-bg: #ffffff;
+  /*   --navbar-bg: #ffffff;
   --navbar-text: #2c3e50;
   --border-color: #e1e8ed;
   --button-bg: #f8f9fa;
   --button-hover: #e9ecef;
   --accent: #007bff;
   --separator: #1a1a1a;
-
+ */
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -46,7 +49,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --navbar-bg: #1a1a1a;
     --navbar-text: #e5e5e5;
@@ -57,3 +60,4 @@
     --accent: #4a9eff;
   }
 }
+ */
