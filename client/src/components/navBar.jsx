@@ -5,7 +5,7 @@ import logo from "../assets/RAH.png";
 
 const NavBar = () => {
   return (
-    <nav className="bg-white dark:">
+    <nav className="bg-white dark:bg-gray-dark">
       <div className="navbar-left">
         <a href="/" className="logo">
           <img src={logo} alt="RedditAtHome Logo" className="logo-image" />
