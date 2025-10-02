@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import NavBar from "./components/navBar";
 
+//Checks for system theme
 function App() {
   useEffect(() => {
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
@@ -9,6 +10,7 @@ function App() {
       document.documentElement.setAttribute("data-theme", "light");
     }
   }, []);
+
   return <NavBar />;
 }
 

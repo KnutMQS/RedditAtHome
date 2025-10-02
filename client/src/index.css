@@ -13,7 +13,7 @@
 [data-theme="dark"] {
   --color-bg: #1a1a1a;
   --color-text: #e5e5e5;
-  --color-border: #404040;
+  --color-border: #6b6b6b;
   --color-button-bg: #2d2d2d;
   --color-button-hover: #404040;
   --color-accent: #4a9eff;
@@ -27,14 +27,6 @@
 }
 
 :root {
-  /*   --navbar-bg: #ffffff;
-  --navbar-text: #2c3e50;
-  --border-color: #e1e8ed;
-  --button-bg: #f8f9fa;
-  --button-hover: #e9ecef;
-  --accent: #007bff;
-  --separator: #1a1a1a;
- */
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -48,16 +40,3 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --navbar-bg: #1a1a1a;
-    --navbar-text: #e5e5e5;
-    --border-color: #404040;
-    --button-bg: #2d2d2d;
-    --button-hover: #404040;
-    --separator: #b3afaf;
-    --accent: #4a9eff;
-  }
-}
- */

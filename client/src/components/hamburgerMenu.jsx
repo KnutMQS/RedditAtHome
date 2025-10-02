@@ -6,16 +6,16 @@ function HamburgerMenu() {
 
   return (
     <div
-      className={`hamburger-menu visible md:hidden relative scale-100 ease-in-out ${
+      className={`hamburger-menu visible lg:hidden relative scale-100 ease-in-out ${
         isOpen ? "open" : ""
       }`}
     >
       <button
-        className="border border-[var(--color-border)] rounded bg-[var(--color-button-bg)] cursor-pointer flex items-center justify-center w-10 h-10 p-0"
+        className="border border-[var(--color-border)] rounded bg-[var(--color-button-bg)] cursor-pointer flex items-center justify-center w-9 h-9 p-0"
         onClick={() => setIsOpen((open) => !open)}
         aria-label="Toggle menu"
       >
-        {isOpen ? <HiXMark size={40} /> : <HiBars3 size={40} />}
+        {isOpen ? <HiXMark size={39} /> : <HiBars3 size={39} />}
       </button>
       <div
         className={`absolute top-full right-0 bg-[var(--color-bg)] border border-[var(--color-border)] rounded shadow-lg z-50 min-w-48 p-4 transition-all duration-200 ${
@@ -24,27 +24,27 @@ function HamburgerMenu() {
             : "opacity-0 scale-95 pointer-events-none"
         }`}
       >
-        <div>
-          <button className="w-16 text-sm flex flex-col bg-[var(--color-button-bg)] border border-[var(--color-border)] rounded px-3 py-2 hover:bg-[var(--color-button-hover)]">
+        <div className="space-y-1.5">
+          <button className="w-full text-sm flex flex-col bg-[var(--color-button-bg)] border border-[var(--color-border)] rounded px-3 py-2">
             Login
           </button>
-          <button className="w-16 text-sm flex flex-col bg-[var(--color-button-bg)] border border-[var(--color-border)] rounded px-3 py-2 hover:bg-[var(--color-button-hover)]">
+          <button className="w-full text-sm flex flex-col bg-[var(--color-button-bg)] border border-[var(--color-border)] rounded px-3 py-2">
             Sign Up
           </button>
-          <div className="mt-4">
+          <div className="flex flex-col items-center">
             <ul className="space-y-2">
               <li>
-                <a className="block text-blue-600 hover:text-blue-800" href="#">
+                <a className="block" href="#">
                   Placeholder
                 </a>
               </li>
               <li>
-                <a className="block text-blue-600 hover:text-blue-800" href="#">
+                <a className="block" href="#">
                   Placeholder
                 </a>
               </li>
               <li>
-                <a className="block text-blue-600 hover:text-blue-800" href="#">
+                <a className="block" href="#">
                   Placeholder
                 </a>
               </li>
