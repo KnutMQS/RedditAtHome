@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
 
 //Checks for system theme
 function App() {
