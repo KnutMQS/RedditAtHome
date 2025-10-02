@@ -1,8 +1,8 @@
 const Sidebar = () => {
   return (
-    <nav className="fixed top-16 px-2 py-1 bg-[var(--color-bg)]">
-      <div>
-        <ul>
+    <nav className="fixed top-16 px-4 py-1 bg-[var(--color-bg)] flex flex-col space-y-2 border-b border-r border-[var(--color-border)]">
+      <div className="border-b-2 pb-3">
+        <ul className="space-y-3">
           <li>
             <a href="/">Placeholder</a>
           </li>
@@ -14,8 +14,8 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
-      <div>
-        <ul>
+      <div className="pb-3">
+        <ul className="space-y-3">
           <li>
             <a href="/">Placeholder</a>
           </li>
