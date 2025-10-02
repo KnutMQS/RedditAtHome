@@ -1,10 +1,10 @@
 import { FaSearch, FaUser, FaSignInAlt } from "react-icons/fa";
-import HamburgerMenu from "./hamburgerMenu";
+import HamburgerMenu from "./HamburgerMenu";
 import logo from "../assets/RAH.png";
 
-const NavBar = () => {
+const Navbar = () => {
   return (
-    <nav className=" bg-[var(--color-bg)] flex fixed top-0 border-b-2 w-full px-2 py-1 items-center justify-between">
+    <nav className=" bg-[var(--color-bg)] flex fixed top-0 z-50 border-b-2 w-full px-2 py-1 items-center justify-between">
       <div className="flex-shrink-0">
         <a href="/" className="">
           <img
@@ -42,4 +42,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
