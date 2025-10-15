@@ -21,20 +21,20 @@ const Navbar = () => {
           placeholder="Search..."
           className="bg-gray-700 border rounded-l border-[var(--color-border)] px-2 sm:px-3 py-2 flex-1 text-sm sm:text-base"
         />
-        <button className="border border-[var(--color-border)] rounded-r px-2 sm:px-3 py-2 flex items-center space-x-1 sm:space-x-2">
+        <button className="border border-[var(--color-border)] bg-[var(--color-button-bg)] rounded-r px-2 sm:px-3 py-2 flex items-center space-x-1 sm:space-x-2">
           <FaSearch />
           <span className="hidden lg:block">Search</span>
         </button>
       </div>
 
       <div className="flex items-center space-x-1 sm:space-x-2 px-2 sm:px-3 py-2">
-        <button className="hidden lg:flex items-center border border-[var(--color-border)] rounded space-x-1 sm:space-x-2 px-2 sm:px-3 py-2">
+        <button className="hidden lg:flex items-center border border-[var(--color-border)] bg-[var(--color-button-bg)] rounded space-x-1 sm:space-x-2 px-2 sm:px-3 py-2">
           <FaUser />
-          <span>Login</span>
+          <span>Sign In</span>
         </button>
-        <button className="hidden lg:flex items-center border border-[var(--color-border)] rounded space-x-1 sm:space-x-2 px-2 sm:px-3 py-2">
+        <button className="hidden lg:flex items-center border border-[var(--color-border)] bg-[var(--color-button-bg)] rounded space-x-1 sm:space-x-2 px-2 sm:px-3 py-2">
           <FaSignInAlt />
-          <span>Sign Up</span>
+          <span>Register</span>
         </button>
         <HamburgerMenu />
       </div>

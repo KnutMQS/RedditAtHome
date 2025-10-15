@@ -6,7 +6,7 @@ function HamburgerMenu() {
 
   return (
     <div
-      className={`hamburger-menu visible lg:hidden relative scale-100 ease-in-out ${
+      className={`visible lg:hidden relative scale-100 ease-in-out ${
         isOpen ? "open" : ""
       }`}
     >
@@ -15,7 +15,7 @@ function HamburgerMenu() {
         onClick={() => setIsOpen((open) => !open)}
         aria-label="Toggle menu"
       >
-        {isOpen ? <HiXMark size={39} /> : <HiBars3 size={39} />}
+        {isOpen ? <HiXMark size={20} /> : <HiBars3 size={20} />}
       </button>
       <div
         className={`absolute top-full right-0 bg-[var(--color-bg)] border border-[var(--color-border)] rounded shadow-lg z-50 min-w-48 p-4 transition-all duration-200 ${
