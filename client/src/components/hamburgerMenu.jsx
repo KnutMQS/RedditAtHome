@@ -17,6 +17,7 @@ function HamburgerMenu() {
       >
         {isOpen ? <HiXMark size={20} /> : <HiBars3 size={20} />}
       </button>
+
       <div
         className={`absolute top-full right-0 bg-[var(--color-bg)] border border-[var(--color-border)] rounded shadow-lg z-50 min-w-48 p-4 transition-all duration-200 ${
           isOpen
@@ -31,6 +32,7 @@ function HamburgerMenu() {
           <button className="w-full text-sm flex flex-col bg-[var(--color-button-bg)] border border-[var(--color-border)] rounded px-3 py-2">
             Sign Up
           </button>
+
           <div className="flex flex-col items-center">
             <ul className="space-y-2">
               <li>
