@@ -1,7 +1,7 @@
 import AuthButtons from "./authButtons";
 import NavLogo from "./navLogo";
 import SearchBar from "./searchBar";
-import HamburgerMenu from "../HamburgerMenu";
+import HamburgerMenu from "../hamburgermenu/hamburgerMenu";
 
 const Navbar = () => {
   return (
