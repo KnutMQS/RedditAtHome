@@ -2,7 +2,7 @@ import { FaSearch } from "react-icons/fa";
 
 const SearchBar = () => {
   return (
-    <div className="flex flex-1 max-w-[60%] mx-2 sm:mx-4 h-9 lg:h-10">
+    <div className="flex flex-1 max-w-[40%] mx-2 sm:mx-4 h-9 lg:h-10">
       <input
         type="text"
         placeholder="Search..."
