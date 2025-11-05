@@ -13,10 +13,10 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="bg-[var(--color-bg)]">
       <Navbar />
       <PostCard />
-    </>
+    </div>
   );
 }
 
