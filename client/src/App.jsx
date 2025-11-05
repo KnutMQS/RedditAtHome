@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Navbar from "./components/navbar/navBar";
+import PostCard from "./components/postcard/postCard";
 
 //Checks for system theme
 function App() {
@@ -14,6 +15,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <PostCard />
     </>
   );
 }
