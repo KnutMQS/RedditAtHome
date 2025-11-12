@@ -1,8 +1,9 @@
 function PostCardHeader() {
   return (
     <>
-      <div className="flex justify-between mx-auto px-5 max-w-[50%] p-3 border border-t-0 border-[var(--color-divider)]">
-        <p>Username</p> <p>Post Time</p>
+      <div className="flex justify-between items-center sm:mx-auto px-5 sm:max-w-[50%] p-3">
+        <p>Username</p>
+        <time className="font-light text-xs opacity-60">14hr. ago</time>
       </div>
     </>
   );
