@@ -5,7 +5,7 @@ import HamburgerMenu from "../hamburgermenu/hamburgerMenu";
 
 const Navbar = () => {
   return (
-    <nav className="flex sticky top-0 z-50 border-b-2 border-[var(--color-divider)] w-full px-2 py-2 items-center justify-between">
+    <nav className="flex sticky top-0 z-50 bg-[var(--color-bg)] border-b-2 border-[var(--color-divider)] w-full px-2 py-2 items-center justify-between">
       <NavLogo />
       <SearchBar />
       <AuthButtons />
