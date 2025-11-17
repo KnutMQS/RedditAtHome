@@ -2,15 +2,15 @@
 
 @theme {
   --color-bg: #ffffff;
-  --color-text: #2c3e50;
+  --color-text: #1d1d1d;
   --color-border: #6b6b6b;
-  --color-button-bg: #2d2d2d;
+  --color-button-bg: #bababa;
   --color-button-hover: #e9ecef;
-  --color-search: #007bff;
+  --color-search: #e1e1e1e1;
   --color-divider: #1a1a1a;
 }
 
-[data-theme="dark"] {
+/* [data-theme="dark"] {
   --color-bg: #1a1a1a;
   --color-text: #e5e5e5;
   --color-border: #6b6b6b;
@@ -18,7 +18,7 @@
   --color-button-hover: #404040;
   --color-search: #474747;
   --color-divider: #b3afaf;
-}
+} */
 
 *,
 *::before,
@@ -30,10 +30,6 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
