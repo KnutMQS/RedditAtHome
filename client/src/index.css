@@ -10,7 +10,7 @@
   --color-divider: #1a1a1a;
 }
 
-/* [data-theme="dark"] {
+[data-theme="dark"] {
   --color-bg: #1a1a1a;
   --color-text: #e5e5e5;
   --color-border: #6b6b6b;
@@ -18,7 +18,7 @@
   --color-button-hover: #404040;
   --color-search: #474747;
   --color-divider: #b3afaf;
-} */
+}
 
 *,
 *::before,
