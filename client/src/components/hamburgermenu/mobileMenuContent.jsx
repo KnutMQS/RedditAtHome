@@ -1,10 +1,10 @@
 function MobileMenuContent({ isOpen }) {
   return (
     <div
-      className={`absolute top-full right-0 z-50 min-w-48 rounded border border-[var(--color-border)] bg-[var(--color-bg)] p-4 shadow-lg transition-all duration-200 ${
+      className={`absolute top-full right-0 z-50 mt-[-1px] min-w-48 border border-[var(--color-border)] bg-[var(--color-bg)] p-4 shadow-lg transition-all duration-100 ${
         isOpen
-          ? "pointer-events-auto scale-100 opacity-100"
-          : "pointer-events-none scale-95 opacity-0"
+          ? "pointer-events-auto -top-px scale-100 rounded-tl rounded-b opacity-100 after:absolute after:top-0 after:right-0 after:h-px after:w-9 after:bg-[var(--color-bg)] after:content-['']"
+          : "pointer-events-none top-full scale-95 rounded opacity-0"
       }`}
     >
       <div className="space-y-1.5">

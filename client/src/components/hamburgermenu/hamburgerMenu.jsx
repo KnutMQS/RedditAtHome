@@ -12,7 +12,7 @@ function HamburgerMenu() {
       }`}
     >
       <button
-        className="flex h-9 w-9 cursor-pointer items-center justify-center rounded border border-[var(--color-border)] bg-[var(--color-button-bg)] p-0"
+        className={`relative z-51 flex h-9 w-9 cursor-pointer items-center justify-center border border-[var(--color-border)] p-0 ${isOpen ? " rounded-t border-b-0 bg-[var(--color-bg)] " : "rounded bg-[var(--color-button-bg)]"}`}
         onClick={() => setIsOpen((open) => !open)}
         aria-label="Toggle menu"
       >
