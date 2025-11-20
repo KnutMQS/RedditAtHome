@@ -8,7 +8,7 @@ function PostCardContent() {
       <img
         src={image}
         alt=""
-        className="rounded-xl h-full w-full object-contain mb-2 mx-auto"
+        className="mx-auto mb-2 h-full w-full rounded-xl object-contain"
       />
     </Link>
   );

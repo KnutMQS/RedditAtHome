@@ -1,17 +1,17 @@
 function MobileMenuContent({ isOpen }) {
   return (
     <div
-      className={`absolute top-full right-0 bg-[var(--color-bg)] border border-[var(--color-border)] rounded shadow-lg z-50 min-w-48 p-4 transition-all duration-200 ${
+      className={`absolute top-full right-0 z-50 min-w-48 rounded border border-[var(--color-border)] bg-[var(--color-bg)] p-4 shadow-lg transition-all duration-200 ${
         isOpen
-          ? "opacity-100 scale-100 pointer-events-auto"
-          : "opacity-0 scale-95 pointer-events-none"
+          ? "pointer-events-auto scale-100 opacity-100"
+          : "pointer-events-none scale-95 opacity-0"
       }`}
     >
       <div className="space-y-1.5">
-        <button className="w-full text-sm flex flex-col bg-[var(--color-button-bg)] border border-[var(--color-border)] rounded px-3 py-2">
+        <button className="flex w-full flex-col rounded border border-[var(--color-border)] bg-[var(--color-button-bg)] px-3 py-2 text-sm">
           Login
         </button>
-        <button className="w-full text-sm flex flex-col bg-[var(--color-button-bg)] border border-[var(--color-border)] rounded px-3 py-2">
+        <button className="flex w-full flex-col rounded border border-[var(--color-border)] bg-[var(--color-button-bg)] px-3 py-2 text-sm">
           Sign Up
         </button>
 

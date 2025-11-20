@@ -7,7 +7,7 @@ const NavLogo = () => {
         <img
           src={logo}
           alt="RedditAtHome Logo"
-          className="border rounded w-9 h-9 lg:w-10 lg:h-10 p-0 m-1"
+          className="m-1 h-9 w-9 rounded border p-0 lg:h-10 lg:w-10"
         />
       </a>
     </div>

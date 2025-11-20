@@ -1,9 +1,9 @@
 function PostPage() {
   return (
-    <div className="flex justify-center items-center font-extrabold text-9xl p-4">
+    <div className="flex items-center justify-center p-4 text-9xl font-extrabold">
       <span>
         Post incoming... <br />
-        <span className="flex justify-center items-center"> maybe </span>
+        <span className="flex items-center justify-center"> maybe </span>
       </span>
     </div>
   );

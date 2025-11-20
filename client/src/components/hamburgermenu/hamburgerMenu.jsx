@@ -7,12 +7,12 @@ function HamburgerMenu() {
 
   return (
     <div
-      className={`visible lg:hidden relative scale-100 ease-in-out ${
+      className={`visible relative scale-100 ease-in-out lg:hidden ${
         isOpen ? "open" : ""
       }`}
     >
       <button
-        className="border border-[var(--color-border)] rounded bg-[var(--color-button-bg)] cursor-pointer flex items-center justify-center w-9 h-9 p-0"
+        className="flex h-9 w-9 cursor-pointer items-center justify-center rounded border border-[var(--color-border)] bg-[var(--color-button-bg)] p-0"
         onClick={() => setIsOpen((open) => !open)}
         aria-label="Toggle menu"
       >

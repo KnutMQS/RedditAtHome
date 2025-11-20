@@ -1,8 +1,8 @@
 function PostCardHeader() {
   return (
-    <div className="flex justify-between items-center pr-3 py-2 ">
+    <div className="flex items-center justify-between py-2 pr-3">
       <span>Username</span>
-      <time className=" justify-end-safe font-light text-xs opacity-60">
+      <time className="justify-end-safe text-xs font-light opacity-60">
         14hr. ago
       </time>
     </div>
