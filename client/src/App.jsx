@@ -1,6 +1,8 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import Navbar from "./components/navbar/navBar";
-import PostCard from "./components/postcard/postCard";
+import HomePage from "./pages/homePage";
+import PostPage from "./pages/postPage";
 
 //Checks for system theme
 function App() {
@@ -13,10 +15,13 @@ function App() {
   }, []);
 
   return (
-    <div className="">
+    <Router>
       <Navbar />
-      <PostCard />
-    </div>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        {<Route path="/post/:id" element={<PostPage />} />}
+      </Routes>
+    </Router>
   );
 }
 
