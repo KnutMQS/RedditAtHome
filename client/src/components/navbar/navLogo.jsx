@@ -2,7 +2,7 @@ import logo from "../../assets/RAH.png";
 
 const NavLogo = () => {
   return (
-    <div className="flex-shrink-0">
+    <div className="mr-1 flex-shrink-0">
       <a href="/" className="">
         <img
           src={logo}
