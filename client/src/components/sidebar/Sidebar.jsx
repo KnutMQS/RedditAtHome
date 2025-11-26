@@ -1,7 +1,7 @@
 const Sidebar = () => {
   return (
-    <nav className="fixed top-16 px-4 py-1 bg-[var(--color-bg)] flex flex-col space-y-2 border-b border-r border-[var(--color-border)]">
-      <div className="border-b-2 pb-3">
+    <nav className="border-border fixed top-auto flex h-screen w-3xs flex-col space-y-2 border-r-2 py-1">
+      <div className="flex justify-center border-b-2 pb-3">
         <ul className="space-y-3">
           <li>
             <a href="/">Placeholder</a>
@@ -14,7 +14,7 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
-      <div className="pb-3">
+      <div className="flex justify-center border-b-2 pb-3">
         <ul className="space-y-3">
           <li>
             <a href="/">Placeholder</a>

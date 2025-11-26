@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import Navbar from "./components/navbar/navBar";
 import HomePage from "./pages/homePage";
 import PostPage from "./pages/postPage";
+import Sidebar from "./components/sidebar/Sidebar";
 
 //Checks for system theme
 function App() {
@@ -17,6 +18,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <Sidebar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         {<Route path="/post/:id" element={<PostPage />} />}
