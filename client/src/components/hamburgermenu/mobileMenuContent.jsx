@@ -1,3 +1,5 @@
+import { FaUser, FaSignInAlt } from "react-icons/fa";
+
 function MobileMenuContent({ isOpen }) {
   return (
     <div
@@ -7,12 +9,14 @@ function MobileMenuContent({ isOpen }) {
           : "pointer-events-none top-full scale-95 rounded opacity-0"
       }`}
     >
-      <div className="space-y-1.5">
-        <button className="border-border bg-bg flex w-full flex-col rounded border px-3 py-2 text-sm">
-          Login
+      <div className="grid items-center justify-center space-y-1.5">
+        <button className="border-border bg-button-bg flex w-31 items-center rounded border px-3 py-2">
+          <FaUser />
+          <span className="mx-auto">Sign In</span>
         </button>
-        <button className="border-border bg-bg flex w-full flex-col rounded border px-3 py-2 text-sm">
-          Sign Up
+        <button className="border-border bg-button-bg flex w-31 items-center rounded border px-3 py-2">
+          <FaSignInAlt />
+          <span className="mx-auto">Register</span>
         </button>
 
         <div className="flex flex-col items-center">
